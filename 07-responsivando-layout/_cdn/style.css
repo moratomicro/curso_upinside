@@ -217,6 +217,7 @@
 
 .main_course .main_course_header {
     max-width: 780px;
+    padding: 0 20px;
     margin: 0 auto;
     text-align: center;
     color: #333;
@@ -270,6 +271,7 @@
 
 .main_course_rating_content {
     max-width: 1300px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -329,6 +331,7 @@
 
 .main_school_content {
     max-width: 1300px;
+    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -521,7 +524,7 @@ main_tutor_content_history p {
 
 .main_optin_footer_content {
     max-width: 100%;
-    padding: 40px 0;
+    padding: 40px 20px;
     text-align: center;
     color: #333;
 }
@@ -543,7 +546,7 @@ main_tutor_content_history p {
 
 .main_footer {
     max-width: 95%;
-    padding: 40px 0;
+    padding: 40px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -690,6 +693,28 @@ main_tutor_content_history p {
     .main_optin_content form input[type=email] {
         padding: 6px 12px;
     }
+    .main_school_content_left {
+        flex-basis: 100%;
+    }
+    .main_school_content_right {
+        flex-basis: 200px;
+        max-width: 200px;
+        padding: 20px;
+    }
+    .main_school_address {
+        flex-basis: calc(100% - 200px);
+        margin: auto;
+    }
+}
+
+
+/* 827px */
+
+@media (max-width:52em) {
+    .main_tutor_social_network>article {
+        flex-basis: 49%;
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -714,6 +739,33 @@ main_tutor_content_history p {
     .main_blog article {
         flex-basis: calc(33% - 10px);
     }
+    .main_course_rating_content_title h2 {
+        font-size: 2em;
+    }
+    .main_school_list>article {
+        flex-basis: 100%;
+        margin: 10px 0;
+        font-size: 0.9em;
+        line-height: 2em;
+    }
+    .main_tutor_social_network h2 {
+        margin-bottom: 20px;
+    }
+    .main_tutor_social_network {
+        max-width: 80%;
+    }
+    .main_tutor_social_network>article {
+        flex-basis: 49%;
+        margin-bottom: 20px;
+    }
+    .main_footer_our_pages,
+    .main_footer_links {
+        flex-basis: calc(50% - 10px);
+    }
+    .main_footer_about {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
 }
 
 
@@ -735,6 +787,36 @@ main_tutor_content_history p {
         margin: 0 auto;
         padding: 6px 12px;
     }
+    .main_course_rating_content_title h2 {
+        font-size: 1.6em;
+    }
+    .main_course_rating_content_comment>header {
+        font-size: 1.2em;
+    }
+    .main_course_rating_content_comment>article {
+        flex-basis: 100%;
+    }
+}
+
+
+/* 569 */
+
+@media (max-width: 36em) {
+    .main_tutor_social_network>article {
+        flex-basis: 100%;
+    }
+}
+
+
+/* 520px */
+
+@media (max-width:32em) {
+    .main_school_content_right {
+        display: none;
+    }
+    .main_school_address {
+        flex-basis: 100%;
+    }
 }
 
 
@@ -752,5 +834,9 @@ main_tutor_content_history p {
     }
     .main_blog article {
         flex-basis: 100%;
+    }
+    .main_course_content article {
+        flex-basis: calc(100% - 40px);
+        margin: 10px 0;
     }
 }
