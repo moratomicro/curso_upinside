@@ -145,6 +145,47 @@
 
 .main_blog article h2 a {
     color: #333;
+    font-weight: 300;
+}
+
+.main_blog .main_blog_meta {
+    font-size: 0.8em;
+    margin-top: 10px;
+    background-color: #FBFBFB;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.main_blog .main_blog_meta p {
+    margin: 0;
+    color: #999;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.main_blog .main_blog_meta {
+    color: #999;
+}
+
+.main_blog .main_blog_meta p a {
+    color: #666;
+}
+
+.main_blog .main_blog_meta p a:hover {
+    text-decoration: underline;
+}
+
+.main_blog .main_blog_meta img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-left: 5px;
+}
+
+.main_blog .main_blog_meta {
+    color: #999;
 }
 
 
