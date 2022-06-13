@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Básicos | jQuery Essentials | UpInside</title>
 </head>
 <body>
-    <div class="jquery_essentials">#BoraProgramar!</div>
-    <button class="btnativo">Clique Aqui</button>
     
+    <div style="margin: 10%;">
+        <p>A</p>
+        <p class="jquery">B</p>
+        <b>C</b>
+        <p class="jquery">D</p>
+        <p id="jquery">E</p>
+    </div>
 
     <script src="../js/jquery.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
-

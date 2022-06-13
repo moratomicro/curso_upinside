@@ -18,4 +18,12 @@ $(function(){
         console.warn("Erro ao cadastrar");
     }
     console.groupEnd();
+    
+    $(".btnativo").on("click", function(e){
+        var element = $(this);
+        element.text("OK").css("color", "green");
+        setTimeout(function(){
+            element.fadeOut();
+        }, 5000);
+    });
 });
